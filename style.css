@@ -1,0 +1,71 @@
+.main-section{
+    height: auto;
+}
+
+.head{
+    border: 1px solid ivory;
+    height: 400px;
+    width: 100%;
+    background-color: ivory;
+}
+
+h1,h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content-section{
+    
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    padding: 30px;
+}
+
+.img{
+    height: 500px;
+}
+
+.quote{
+    height: 100px;
+    width: 100%;
+    background-color: ivory;
+    display: grid;
+    place-content: center;
+    
+}
+
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    padding: 30px;
+    
+
+}
+
+@media screen and (min-width : 240px) and  (max-width : 790px) {
+    .img{
+        height:280px;
+        width: auto;
+    }
+
+    .abtkazi{
+        overflow: auto;
+    }
+
+    .quote{
+        font-size: smaller;
+    }
+
+    h4{
+        margin-left: 20px;
+    }
+}
+
